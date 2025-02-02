@@ -23,7 +23,7 @@ export default function Home() {
     }
 
     // Fetching all posts
-    fetch("http://localhost:5000/allposts", {
+    fetch("http://localhost:5000/api/your-endpoint", {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("jwt"),
       },
